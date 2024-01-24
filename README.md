@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Classify.ai
+
+Classify.ai is an AI-powered object detection app that instantly classifies objects in uploaded images, gaining detailed insights into your visual content.
+
+![classify demo image](https://github.com/srb1998/Classify.ai/assets/80816037/9695dde0-9685-4623-b72f-2b24f1f7a0f4)
+
+## Overview
+
+Classify.ai simplifies object detection by allowing users to upload images and receive classification results in real-time. The integration of transformer.js and the powerful Xenova/detr-resnet-50 model ensures precise identification and classification of objects.
+
+## Features
+
+- **Object Detection**: Upload images and receive detailed information about the objects present.
+
+- **Efficient Classification**: Utilizes the Xenova/detr-resnet-50 AI model for accurate and efficient object classification.
+
+## Usage
+
+1. Upload an image containing objects you want to classify.
+2. Receive detailed information about the identified objects.
 
 ## Getting Started
 
-First, run the development server:
+To run the project locally, follow these steps:
 
 ```bash
+# Clone the repository
+git clone https://github.com/your-username/Classify.ai.git
+
+# Install dependencies
+cd Classify.ai
+npm install
+
+# Run the application locally
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
