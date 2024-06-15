@@ -25,11 +25,22 @@ To run the project locally, follow these steps:
 
 ```bash
 # Clone the repository
+```sh
 git clone https://github.com/your-username/Classify.ai.git
+```
 
 # Install dependencies
+```sh
 cd Classify.ai
 npm install
+```
+
+# Secret Key and API key
+Obtain your Secret Key and APP_ID from Uploadthing.com  and set them as your environment variables.
+```sh
+UPLOADTHING_SECRET = xxxxxx
+UPLOADTHING_APP_ID = xxxxxx
+```
 
 # Run the application locally
 npm run dev
